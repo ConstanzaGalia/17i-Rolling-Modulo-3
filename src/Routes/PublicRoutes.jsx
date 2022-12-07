@@ -12,10 +12,10 @@ import VerifyAccount from '../pages/VerifyAccount';
 import { useEffect } from 'react';
 import { getLocalStorage } from '../utils/localStorageHelper';
 import { ActionTypes, useContextState } from '../context/contextState';
+import ProductoEdit from '../pages/ProductoEdit';
 
 const PublicRoutes = () => {
   const { setContextState, contextState } = useContextState();
-  const navigate = useNavigate();
 
   useEffect(() => {
     const userData = getLocalStorage('user');
@@ -38,10 +38,20 @@ const PublicRoutes = () => {
         <Route path="/detail/:name" element={<Details />} />
         <Route
           path="/admin"
+          exact
           element={
-            <PrivateRoutes>
-              <Admin />
-            </PrivateRoutes>
+            // <PrivateRoutes>
+            <Admin />
+            // </PrivateRoutes>
+          }
+        />
+        <Route
+          path="/admin/edit/product/:id"
+          exact
+          element={
+            // <PrivateRoutes>
+            <ProductoEdit />
+            // </PrivateRoutes>
           }
         />
         <Route path="*" element={<NotFound />} />
