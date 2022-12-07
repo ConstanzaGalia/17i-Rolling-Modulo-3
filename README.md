@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# ¿Qué es un archivo readme?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+*El archivo readme es el primer archivo que un desarrollador mira antes de ingresar al codigo de un proyecto, esta escrito en lenguaje markdown. A continuacion les dejamos una plantilla con los datos que deberias agregar a tus readme.*
 
-## Available Scripts
+# Título del proyecto 🚀
 
-In the project directory, you can run:
+Descripcion breve de lo que trata tu proyecto.
 
-### `npm start`
+## Pre-requisitos 📋
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Cosas que se necesitan tener instaladas o configuradas previamente para utilizar tu proyecto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- software 1
+- libreria 1
+- libreria 2
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instalación ⚙️
 
-### `npm run build`
+Describe el paso a paso que debe realizar alguien que quiere usar este proyecto, por ejemplo:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Puedes instalarlo desde npm
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`npm install proyecto`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+O también clonando el repositorio
 
-### `npm run eject`
+`$ git clone url`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Herramientas utilizadas 🛠️
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Aqui podes nombrar y linkear las librerias que utilizaste.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. [Bootstrap v5](https://getbootstrap.com/)
+1. Libreria 3
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Autores 👩‍💻👨‍💻
 
-## Learn More
+Menciona a todas las personas que colaboraron en el proyecto.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- dev 1
+- dev 2
+- dev 3
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Cómo contribuir 👍
 
-### Code Splitting
+Si es un proyecto open source describe la forma en la que deberían crearse las contribuciones.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Licencia 📄
 
-### Analyzing the Bundle Size
+Muestra la licencia que tiene el proyecto.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Extras
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Si aun no te sentis familiarizado con el lenguaje de marcado ligero 'Markdown' te recomiendo un pluggin para vscode:
 
-### Advanced Configuration
+- [docs-markdown](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-markdown)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made with ❤️ by [Emilse Arias](https://github.com/earias08) - [Rolling Code School](https://rollingcodeschool.com/)
